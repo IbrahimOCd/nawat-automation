@@ -1,1 +1,0 @@
-Section 'MS-1(MARGUERITES)' at index 4 has caret icon: False

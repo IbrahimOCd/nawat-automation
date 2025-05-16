@@ -1,8 +1,0 @@
-Found 1 student cards
-Found 1 cards with label '//span[text()='Non-inscrit']'
-Students have 'Non-inscrit' label: True
-Found 1 student cards
-Card 1 class text: '--'
-All students have empty class: True
-Has settings icon and unarchive option: True
-Remove filter button not visible - filter may not be applied

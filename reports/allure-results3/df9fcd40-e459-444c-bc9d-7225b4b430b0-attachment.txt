@@ -1,4 +1,0 @@
-Result: False
-Total students: 16
-Matching students: 2
-Non-matching classes: ['2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)', '2ASC-1 (F W  HEGEL)']

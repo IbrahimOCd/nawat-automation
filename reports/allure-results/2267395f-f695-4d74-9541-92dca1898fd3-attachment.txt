@@ -1,7 +1,0 @@
-Found 4 student cards
-Card 1 has 'non affecté' image
-Card 2 has 'non affecté' image
-Card 3 has 'non affecté' image
-Card 4 has 'non affecté' image
-Found 4 of 4 cards with 'non affecté' image
-Students have 'non affecté' image: True

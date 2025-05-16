@@ -1,1 +1,0 @@
-Section 'Tous' is a class (not expandable)

@@ -1,1 +1,0 @@
-Section '3AEP' at index 18 has caret icon: False

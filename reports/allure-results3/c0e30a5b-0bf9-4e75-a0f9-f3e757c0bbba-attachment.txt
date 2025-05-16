@@ -1,1 +1,0 @@
-Section '6AEP-1 (DARWICH)' at index 26 has caret icon: False

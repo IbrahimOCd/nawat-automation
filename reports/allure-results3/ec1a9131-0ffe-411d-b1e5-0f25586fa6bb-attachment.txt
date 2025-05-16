@@ -1,1 +1,0 @@
-Section '1AEP-1 (BAUDELAIRE)' at index 13 has caret icon: False

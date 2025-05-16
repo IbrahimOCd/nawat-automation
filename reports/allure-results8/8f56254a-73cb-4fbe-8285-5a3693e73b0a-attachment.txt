@@ -1,4 +1,0 @@
-Error processing niveau element 13: Timeout 30000ms exceeded.
-=========================== logs ===========================
-taking page screenshot
-============================================================

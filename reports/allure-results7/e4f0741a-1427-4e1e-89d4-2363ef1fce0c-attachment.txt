@@ -1,4 +1,0 @@
-Verification result: FAIL
-Total students: 46
-Matching students: 1
-Mismatched students: 45

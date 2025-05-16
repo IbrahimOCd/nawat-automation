@@ -1,1 +1,0 @@
-Student 6 has incorrect class: '3AEP-1 (CHERKAOUI)' (expected '3AEP-2 (BOURDIEU)')

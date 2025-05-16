@@ -1,1 +1,0 @@
-Section '2AEP-2 (ADONIS)' at index 17 has caret icon: False

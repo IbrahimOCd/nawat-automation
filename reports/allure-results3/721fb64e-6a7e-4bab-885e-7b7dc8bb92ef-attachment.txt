@@ -1,1 +1,0 @@
-Section '1AEP-2 (MALLARME)' at index 14 has caret icon: False

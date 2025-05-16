@@ -1,1 +1,0 @@
-Section 'Lycée' is a class (not expandable)

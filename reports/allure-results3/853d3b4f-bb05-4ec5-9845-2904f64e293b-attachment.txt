@@ -1,1 +1,0 @@
-Student 33 has class 'MS-1(MARGUERITES)' instead of 'Tous'

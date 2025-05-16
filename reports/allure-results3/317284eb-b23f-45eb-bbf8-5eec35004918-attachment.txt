@@ -1,1 +1,0 @@
-Section '2AEP-1 (IBN ROCHD)' at index 16 has caret icon: False

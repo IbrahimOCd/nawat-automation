@@ -1,1 +1,0 @@
-Student 34 has class 'MS-1(MARGUERITES)' instead of 'Maternelle'

@@ -1,4 +1,0 @@
-Result: False
-Total students: 6
-Matching students: 0
-Non-matching classes: []

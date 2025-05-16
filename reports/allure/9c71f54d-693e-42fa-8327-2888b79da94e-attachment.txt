@@ -1,6 +1,0 @@
-Has missing document button: True
-Error going back to student list: Timeout 1000ms exceeded.
-=========================== logs ===========================
-waiting for locator("xpath=//div[contains(@class,'oe_kanban_global_click o_kanban_record_has_image_fill o_hr_kanban_record')]") to be visible
-============================================================
-Remove filter button not visible - filter may not be applied

@@ -1,1 +1,0 @@
-Student 49 has incorrect class: '3ASC-1 (P. RICOEUR)' (expected 'Maternelle')

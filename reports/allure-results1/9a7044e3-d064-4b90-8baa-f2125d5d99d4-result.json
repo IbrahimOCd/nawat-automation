@@ -1,0 +1,1 @@
+{"name": "test_export_all_students_to_excel", "status": "skipped", "description": "Test exporting all students to Excel from list view", "start": 1747407386353, "stop": 1747407386353, "uuid": "36d6753b-ff4b-4ba3-b72c-ae4e777d180e", "testCaseId": "54cdb2df3b7eac01d05b3a5a26510b5c", "fullName": "tests.acces.test_student_list_actions#test_export_all_students_to_excel"}

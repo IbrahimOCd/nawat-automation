@@ -1,4 +1,0 @@
-Error processing element 4: Timeout 30000ms exceeded.
-=========================== logs ===========================
-taking page screenshot
-============================================================

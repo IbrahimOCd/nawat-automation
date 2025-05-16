@@ -1,1 +1,0 @@
-Section '4AEP-1 (KANT)' at index 22 has caret icon: False

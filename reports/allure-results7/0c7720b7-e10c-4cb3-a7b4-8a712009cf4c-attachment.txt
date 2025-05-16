@@ -1,1 +1,0 @@
-Student 12 has incorrect class: '2AEP-1 (IBN ROCHD)' (expected '2AEP-2 (ADONIS)')

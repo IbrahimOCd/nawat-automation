@@ -1,1 +1,0 @@
-Student 69 has incorrect class: '3AEP-1 (CHERKAOUI)' (expected 'Maternelle')

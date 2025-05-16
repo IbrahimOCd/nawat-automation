@@ -1,0 +1,7 @@
+Total test execution time: 11.65 seconds
+Navigation time: 11.65 seconds
+Download time: 0.00 seconds
+File size: 20148 bytes
+Students selected: 326
+Speed: 29017.65 KB/s (download)
+Speed: 27.98 students/second (overall)

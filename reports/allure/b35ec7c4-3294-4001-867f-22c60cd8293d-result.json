@@ -1,1 +1,0 @@
-{"name": "test_non_reinscrit_filter", "status": "skipped", "description": "Test the 'Non réinscrit' filter functionality", "start": 1747212563075, "stop": 1747212563075, "uuid": "24b51df4-f704-4503-b0f5-48f557aad7bf", "testCaseId": "3f9bed7fc693503adf59d7248360233e", "fullName": "tests.acces.test_student_filters#test_non_reinscrit_filter"}

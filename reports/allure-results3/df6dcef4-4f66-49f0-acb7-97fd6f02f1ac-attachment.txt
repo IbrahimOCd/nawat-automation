@@ -1,4 +1,0 @@
-Error processing section at index 10: Timeout 30000ms exceeded.
-=========================== logs ===========================
-taking page screenshot
-============================================================

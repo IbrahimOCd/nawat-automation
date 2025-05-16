@@ -1,1 +1,0 @@
-Section '1AEP' at index 12 has caret icon: False

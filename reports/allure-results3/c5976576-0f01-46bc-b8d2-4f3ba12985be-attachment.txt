@@ -1,8 +1,0 @@
-Error checking if section at index 27 has caret icon: DOMException: Failed to execute 'evaluate' on 'Document': The string '(//div[contains(@class,'o_search_panel_label d-flex')])[27](//i[@class='fa fa-caret-down'])' is not a valid XPath expression.
-    at Object.queryAll (<anonymous>:23:25)
-    at InjectedScript._queryEngineAll (<anonymous>:4520:49)
-    at InjectedScript.querySelectorAll (<anonymous>:4507:30)
-    at InjectedScript.querySelector (<anonymous>:4451:25)
-    at eval (eval at evaluate (:197:30), <anonymous>:5:23)
-    at UtilityScript.evaluate (<anonymous>:199:17)
-    at UtilityScript.<anonymous> (<anonymous>:1:44)

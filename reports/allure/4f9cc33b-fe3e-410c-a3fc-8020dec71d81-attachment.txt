@@ -1,1 +1,0 @@
-Card missing label: //span[text()='Inscription radiée']

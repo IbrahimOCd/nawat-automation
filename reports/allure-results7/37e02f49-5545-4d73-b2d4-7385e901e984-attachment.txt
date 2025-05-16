@@ -1,1 +1,0 @@
-Item 3: 'Primaire' is a class (no caret icon)

@@ -1,1 +1,0 @@
-Section 'Primaire' is a class (not expandable)

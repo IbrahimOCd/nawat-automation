@@ -1,4 +1,0 @@
-Error in check_all_students_have_sans_famille_image: SyntaxError: missing ) after argument list
-    at eval (<anonymous>)
-    at UtilityScript.evaluate (<anonymous>:197:30)
-    at UtilityScript.<anonymous> (<anonymous>:1:44)

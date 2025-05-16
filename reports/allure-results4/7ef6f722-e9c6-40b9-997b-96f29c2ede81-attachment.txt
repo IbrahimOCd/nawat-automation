@@ -1,1 +1,0 @@
-Student 55 has class 'GS-1 (JASMINS)' instead of 'Maternelle'

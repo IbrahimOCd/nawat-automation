@@ -1,1 +1,0 @@
-Item 5: 'Lycée' is a cycle/niveau (has caret icon)

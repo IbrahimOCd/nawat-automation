@@ -1,1 +1,0 @@
-Item 1: 'Tous' is a class (no caret icon)
