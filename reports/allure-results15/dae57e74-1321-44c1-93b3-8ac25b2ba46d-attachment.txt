@@ -1,0 +1,1 @@
+All students have empty class: True

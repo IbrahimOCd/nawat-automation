@@ -1,0 +1,1 @@
+Student 52 has class 'GS-1 (JASMINS)' instead of 'Tous'

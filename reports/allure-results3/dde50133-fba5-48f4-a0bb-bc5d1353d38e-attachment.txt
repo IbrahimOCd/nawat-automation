@@ -1,0 +1,1 @@
+Section 'Lycée' at index 34 has caret icon: False

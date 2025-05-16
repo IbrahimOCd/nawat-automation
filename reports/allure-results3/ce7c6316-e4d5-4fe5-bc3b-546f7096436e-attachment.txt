@@ -1,0 +1,1 @@
+Section '2ASC' at index 30 has caret icon: False

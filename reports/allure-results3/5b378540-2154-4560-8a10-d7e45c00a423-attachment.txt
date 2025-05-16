@@ -1,0 +1,1 @@
+Section 'Maternelle' at index 2 has caret icon: False

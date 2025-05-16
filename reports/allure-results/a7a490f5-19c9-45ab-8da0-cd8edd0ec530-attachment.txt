@@ -1,0 +1,8 @@
+Found 5 student cards
+Card 1 has 'non affecté' image
+Card 2 has 'non affecté' image
+Card 3 has 'non affecté' image
+Card 4 has 'non affecté' image
+Card 5 has 'non affecté' image
+Found 5 of 5 cards with 'non affecté' image
+Students have 'non affecté' image: True

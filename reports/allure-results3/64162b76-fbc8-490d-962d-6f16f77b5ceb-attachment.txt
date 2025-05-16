@@ -1,0 +1,1 @@
+Section 'Collège' is a class (not expandable)

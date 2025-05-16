@@ -1,0 +1,1 @@
+Error checking image for card 1: Page.evaluate() takes from 2 to 3 positional arguments but 4 were given

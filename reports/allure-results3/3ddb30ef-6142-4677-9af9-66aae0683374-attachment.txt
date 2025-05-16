@@ -1,0 +1,4 @@
+Result: False
+Total students: 25
+Matching students: 0
+Non-matching classes: ['4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)', '4AEP-1 (KANT)']

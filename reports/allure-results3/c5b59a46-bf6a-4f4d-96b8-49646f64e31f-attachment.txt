@@ -1,0 +1,1 @@
+Section 'TPS' at index 9 has caret icon: False

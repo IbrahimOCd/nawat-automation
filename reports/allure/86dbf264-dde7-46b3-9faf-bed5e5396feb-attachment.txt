@@ -1,0 +1,8 @@
+Found 3 student cards
+Found 3 cards with label '//span[text()='Inscription radiée']'
+Students have 'Inscription radiée' label: True
+Found 3 student cards
+Card 1 class text: '--'
+Card 2 class text: '--'
+Card 3 class text: '--'
+All students have empty class: True

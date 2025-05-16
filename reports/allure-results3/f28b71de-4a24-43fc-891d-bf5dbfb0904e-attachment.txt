@@ -1,0 +1,1 @@
+Section 'Maternelle' is a class (not expandable)

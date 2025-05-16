@@ -1,0 +1,4 @@
+Error getting visible students count: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//div[contains(@class,'oe_kanban_global_click o_kanban_record_has_image_fill')]") to be visible
+============================================================

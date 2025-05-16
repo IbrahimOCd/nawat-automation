@@ -1,0 +1,1 @@
+Section 'Crèche' at index 8 has caret icon: False

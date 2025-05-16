@@ -1,0 +1,1 @@
+Section '4AEP' at index 21 has caret icon: False

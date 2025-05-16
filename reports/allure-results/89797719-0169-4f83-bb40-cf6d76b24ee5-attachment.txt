@@ -1,0 +1,10 @@
+Found 7 student cards
+Card 1 has 'non affecté' image
+Card 2 has 'non affecté' image
+Card 3 has 'non affecté' image
+Card 4 has 'non affecté' image
+Card 5 has 'non affecté' image
+Card 6 has 'non affecté' image
+Card 7 has 'non affecté' image
+Found 7 of 7 cards with 'non affecté' image
+Students have 'non affecté' image: True

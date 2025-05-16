@@ -1,0 +1,1 @@
+Has settings icon and unarchive option: False

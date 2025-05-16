@@ -1,0 +1,1 @@
+Error getting sidebar item 4: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title')]"

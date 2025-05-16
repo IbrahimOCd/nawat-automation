@@ -1,0 +1,8 @@
+Error during setup: @pytest.fixture(scope="session")
+    def config():
+        try:
+            with open('data/config.json', 'r', encoding='utf-8') as f:
+>               config_data = json.load(f)
+E               NameError: name 'json' is not defined
+
+conftest.py:99: NameError

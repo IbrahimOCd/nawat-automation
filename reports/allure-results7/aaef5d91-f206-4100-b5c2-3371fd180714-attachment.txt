@@ -1,0 +1,1 @@
+Student 8 has incorrect class: '1AEP-2 (MALLARME)' (expected '1AEP')

@@ -1,0 +1,38 @@
+Found 16 student cards
+Card 2 does not have label: //span[text()='Non-inscrit']
+Card 3 does not have label: //span[text()='Non-inscrit']
+Card 4 does not have label: //span[text()='Non-inscrit']
+Card 5 does not have label: //span[text()='Non-inscrit']
+Card 6 does not have label: //span[text()='Non-inscrit']
+Card 7 does not have label: //span[text()='Non-inscrit']
+Card 8 does not have label: //span[text()='Non-inscrit']
+Card 9 does not have label: //span[text()='Non-inscrit']
+Card 10 does not have label: //span[text()='Non-inscrit']
+Card 11 does not have label: //span[text()='Non-inscrit']
+Card 12 does not have label: //span[text()='Non-inscrit']
+Card 13 does not have label: //span[text()='Non-inscrit']
+Card 14 does not have label: //span[text()='Non-inscrit']
+Card 15 does not have label: //span[text()='Non-inscrit']
+Card 16 does not have label: //span[text()='Non-inscrit']
+Found 1 cards with label '//span[text()='Non-inscrit']'
+Students have 'Non-inscrit' label: False
+Found 16 student cards
+Card 1 class text: '--'
+Card 2 class element not visible
+Card 3 class text: '--'
+Card 4 class element not visible
+Card 5 class element not visible
+Card 6 class element not visible
+Card 7 class element not visible
+Card 8 class element not visible
+Card 9 class element not visible
+Card 10 class element not visible
+Card 11 class element not visible
+Card 12 class element not visible
+Card 13 class element not visible
+Card 14 class element not visible
+Card 15 class element not visible
+Card 16 class element not visible
+All students have empty class: True
+Has settings icon and unarchive option: True
+Remove filter button not visible - filter may not be applied

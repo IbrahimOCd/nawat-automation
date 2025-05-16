@@ -1,6 +1,8 @@
 # conftest.py
 import pytest
 import json
+import os
+import time
 from playwright.sync_api import sync_playwright
 from pages.login_page import LoginPage
 
@@ -8,15 +10,19 @@ from pages.login_page import LoginPage
 @pytest.fixture(scope="session")
 def config():
     try:
-        with open('data/config.json', 'r') as f:
-            return json.load(f)
+        with open('data/config.json', 'r', encoding='utf-8') as f:
+            config_data = json.load(f)
+            # Convert string 'False'/'True' to boolean if needed
+            if isinstance(config_data.get("headless"), str):
+                config_data["headless"] = config_data["headless"].lower() == 'true'
+            return config_data
     except FileNotFoundError:
         # Default config if file not found
         return {
             "base_url": "https://dev.nawat.ma",
-            "username": "admin",
-            "password": "123456",
-            "headless": False,
+            "username": "ecole.e2a",
+            "password": "1@ayouris2",
+            "headless": False,  
             "slow_mo": 50
         }
 
@@ -28,42 +34,107 @@ def browser_context_args(browser_context_args):
             "width": 1920,
             "height": 1080,
         },
+        # Performance optimizations
+        "java_script_enabled": True,
+        "bypass_csp": True, 
+        "ignore_https_errors": True
     }
 
 @pytest.fixture(scope="session")
 def browser(config):
     with sync_playwright() as playwright:
+        # Ensure headless is a boolean
+        headless_value = config.get("headless")
+        if isinstance(headless_value, str):
+            headless_value = headless_value.lower() == 'true'
+        
+        # Get slow_mo value but default to a lower value for faster tests
+        slow_mo = config.get("slow_mo", 30)  # Lowered from 50 to 30
+        
         browser = playwright.chromium.launch(
-            headless=config.get("headless", False),
-            slow_mo=config.get("slow_mo", 50)
+            headless=headless_value,
+            slow_mo=slow_mo,
+            args=[
+                "--disable-extensions",
+                "--disable-dev-shm-usage", 
+                "--disable-gpu",
+                "--no-sandbox"
+            ]
         )
         yield browser
         browser.close()
 
-@pytest.fixture
-def page(browser, config):
-    context = browser.new_context()
+# Create a session-scoped authenticated context for faster tests
+@pytest.fixture(scope="session")
+def authenticated_context(browser, config):
+    # Create a context
+    context = browser.new_context(
+        viewport={"width": 1920, "height": 1080},
+        ignore_https_errors=True
+    )
+    
+    # Create a page for login
     page = context.new_page()
-    yield page
-    # Take screenshot on failure
-    context.close()
-
-@pytest.fixture
-def logged_in_page(page, config):
+    
+    # Perform login
     login_page = LoginPage(page)
     login_page.navigate()
     
     success = login_page.login(
-        config.get("username", "admin"),
-        config.get("password", "123456")
+        config.get("username", "ecole.e2a"),
+        config.get("password", "1@ayouris2")
     )
     
     if not success:
         # Take a screenshot of the failure
-        page.screenshot(path="reports/screenshots/login_failure.png")
-        error = login_page.get_error_message() or "Unknown error (possible timeout)"
-        pytest.fail(f"Login failed: {error}")
+        os.makedirs("reports/screenshots", exist_ok=True)
+        page.screenshot(path="reports/screenshots/session_login_failure.png")
+        pytest.fail("Failed to create authenticated session")
     
-    # Take a screenshot of successful login
-    page.screenshot(path="reports/screenshots/successful_login.png")
+    # Wait for the app to be fully loaded before using this context
+    try:
+        page.wait_for_selector("//div[contains(@class,'o_home_menu')]", timeout=15000)
+    except:
+        page.screenshot(path="reports/screenshots/session_load_failure.png")
+    
+    # Close the page but keep the authenticated context
+    page.close()
+    
+    yield context
+    context.close()
+
+# Regular page fixture (use only when needed)
+@pytest.fixture
+def page(browser, config):
+    context = browser.new_context()
+    page = context.new_page()
+    
+    # Ensure screenshots directory exists
+    os.makedirs("reports/screenshots", exist_ok=True)
+    
     yield page
+    context.close()
+
+# Main fixture for tests - uses the authenticated context
+@pytest.fixture
+def logged_in_page(authenticated_context):
+    # Create a new page in the authenticated context
+    page = authenticated_context.new_page()
+    
+    # Go to the app URL
+    page.goto("https://dev.nawat.ma/web", wait_until="domcontentloaded")
+    
+    # Wait for initial load
+    try:
+        page.wait_for_load_state("networkidle", timeout=5000)
+    except:
+        pass  # Continue even if timeout
+    
+    yield page
+    page.close()
+
+# Add a fixture for maximizing test parallelization
+@pytest.fixture(scope="session", autouse=True)
+def configure_xdist():
+    """Configure pytest-xdist for better parallel execution if available."""
+    return

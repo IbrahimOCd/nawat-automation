@@ -1,0 +1,4 @@
+Result: False
+Total students: 18
+Matching students: 0
+Non-matching classes: ['3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)', '3ASC-1 (P. RICOEUR)']

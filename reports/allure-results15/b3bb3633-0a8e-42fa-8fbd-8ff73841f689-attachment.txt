@@ -1,0 +1,4 @@
+Found 25 student cards
+Found 25 cards with label '//span[text()='Inscription annulée']'
+Students have 'Inscription annulée' label: True
+Not checking class info for Annulée (Archivé) as per requirements

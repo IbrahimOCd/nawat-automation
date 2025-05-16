@@ -1,0 +1,17 @@
+Error during teardown: self = <allure_commons._allure.fixture object at 0x000001AC38B036D0>, args = (), kwargs = {}
+
+    def __call__(self, *args, **kwargs):
+        self.parameters = func_parameters(self._fixture_function, *args, **kwargs)
+    
+        with self:
+>           return self._fixture_function(*args, **kwargs)
+
+venv\lib\site-packages\allure_commons\_allure.py:231: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+request = <SubRequest 'allure_attachments' for <Function test_pagination>>
+
+>   ???
+E   AssertionError: The fixture value for "page" is not available.  This can happen when the fixture has already been torn down.
+
+conftest.py:27: AssertionError

@@ -1,0 +1,10 @@
+Found 5 student cards
+Found 5 cards with label '//span[text()='Non-inscrit']'
+Students have 'Non-inscrit' label: True
+Found 5 student cards
+Card 1 class text: '--'
+Card 2 class text: '--'
+Card 3 class text: '--'
+Card 4 class text: '--'
+Card 5 class text: '--'
+All students have empty class: True

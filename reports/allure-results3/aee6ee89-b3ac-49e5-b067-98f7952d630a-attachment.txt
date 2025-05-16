@@ -1,0 +1,1 @@
+Section 'Tous' at index 1 has caret icon: False

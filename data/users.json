@@ -1,0 +1,10 @@
+{
+    "invalid_users": [
+        {"username": "wrong_user", "password": "wrong_pass", "description": "Completely invalid credentials"},
+        {"username": "ecole.e2a", "password": "wrong_pass", "description": "Valid username, invalid password"},
+        {"username": "wrong_user", "password": "1@ayouris2", "description": "Invalid username, valid password"}
+    ],
+    "valid_users": [
+        {"username": "ecole.e2a", "password": "1@ayouris2", "description": "Valid school admin credentials"}
+    ]
+}

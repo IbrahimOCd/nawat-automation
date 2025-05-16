@@ -1,0 +1,1 @@
+Section 'Grande Section' at index 5 has caret icon: False

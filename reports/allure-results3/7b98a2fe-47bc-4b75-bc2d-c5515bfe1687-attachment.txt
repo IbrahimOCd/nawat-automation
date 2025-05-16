@@ -1,0 +1,1 @@
+Section 'GS-1 (JASMINS)' at index 6 has caret icon: False

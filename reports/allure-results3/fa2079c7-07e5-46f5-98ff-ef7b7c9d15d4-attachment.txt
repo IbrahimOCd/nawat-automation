@@ -1,0 +1,4 @@
+Result: False
+Total students: 24
+Matching students: 0
+Non-matching classes: ['1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)', '1ASC-1 (A. LAROUI)']

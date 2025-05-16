@@ -1,0 +1,1 @@
+Error checking if section 'Unknown' is expandable: Unsupported token "@class" while parsing selector ".//button[contains(@class, 'o_toggle_fold')]//i[contains(@class, 'fa-caret-down')]"

@@ -1,0 +1,72 @@
+TEST SUMMARY
+
+Classes Tested (15):
+- MS-1(MARGUERITES), GS-1 (JASMINS), GS-2 (COQUELICOTS), 1AEP-1 (BAUDELAIRE), 1AEP-2 (MALLARME), 2AEP-1 (IBN ROCHD), 2AEP-2 (ADONIS), 3AEP-1 (CHERKAOUI), 3AEP-2 (BOURDIEU), 4AEP-1 (KANT), 5AEP-1 (SPINOZA), 6AEP-1 (DARWICH), 1ASC-1 (A. LAROUI), 2ASC-1 (F W  HEGEL), 3ASC-1 (P. RICOEUR)
+
+Classes with Students (15):
+- MS-1(MARGUERITES), GS-1 (JASMINS), GS-2 (COQUELICOTS), 1AEP-1 (BAUDELAIRE), 1AEP-2 (MALLARME), 2AEP-1 (IBN ROCHD), 2AEP-2 (ADONIS), 3AEP-1 (CHERKAOUI), 3AEP-2 (BOURDIEU), 4AEP-1 (KANT), 5AEP-1 (SPINOZA), 6AEP-1 (DARWICH), 1ASC-1 (A. LAROUI), 2ASC-1 (F W  HEGEL), 3ASC-1 (P. RICOEUR)
+
+Classes without Students (0):
+- 
+
+Classes with Mismatched Students (1):
+- 2AEP-2 (ADONIS)
+
+DETAILED MISMATCHES:
+Class: 2AEP-2 (ADONIS)
+Total mismatched students: 18
+Student details:
+- Student #1: Student 1 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #2: Student 2 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #3: Student 3 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #4: Student 4 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #5: Student 5 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #6: Student 6 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #7: Student 7 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #8: Student 8 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #9: Student 9 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #10: Student 10 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #11: Student 11 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #12: Student 12 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #13: Student 13 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #14: Student 14 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #15: Student 15 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #16: Student 16 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #17: Student 17 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)
+- Student #18: Student 18 (ID: Unknown ID)
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: 2AEP-1 (IBN ROCHD)

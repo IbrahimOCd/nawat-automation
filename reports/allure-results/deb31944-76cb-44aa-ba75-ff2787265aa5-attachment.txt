@@ -1,0 +1,16 @@
+TEST SUMMARY
+
+Cycles and Niveaux (0):
+- 
+
+Classes Tested (0):
+- 
+
+Classes with Students (0):
+- 
+
+Classes without Students (0):
+- 
+
+Classes with Mismatched Students (0):
+- 

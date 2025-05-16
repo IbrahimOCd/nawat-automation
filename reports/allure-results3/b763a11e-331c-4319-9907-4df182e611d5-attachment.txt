@@ -1,0 +1,1 @@
+Section '3AEP-1 (CHERKAOUI)' at index 19 has caret icon: False

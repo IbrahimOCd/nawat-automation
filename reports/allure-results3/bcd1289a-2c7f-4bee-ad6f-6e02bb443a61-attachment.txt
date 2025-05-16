@@ -1,0 +1,1 @@
+Section '2AEP' at index 15 has caret icon: False

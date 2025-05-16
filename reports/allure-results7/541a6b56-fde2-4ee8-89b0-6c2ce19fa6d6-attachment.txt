@@ -1,0 +1,1 @@
+Student 66 has incorrect class: '1AEP-1 (BAUDELAIRE)' (expected 'Primaire')

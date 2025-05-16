@@ -1,0 +1,1 @@
+Section 'GS-2 (COQUELICOTS)' at index 7 has caret icon: False

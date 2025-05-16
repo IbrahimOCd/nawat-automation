@@ -1,0 +1,150 @@
+Found 75 student cards
+Card 6 does not have label: //span[text()='Non-réinscrit']
+Card 7 does not have label: //span[text()='Non-réinscrit']
+Card 8 does not have label: //span[text()='Non-réinscrit']
+Card 9 does not have label: //span[text()='Non-réinscrit']
+Card 10 does not have label: //span[text()='Non-réinscrit']
+Card 11 does not have label: //span[text()='Non-réinscrit']
+Card 12 does not have label: //span[text()='Non-réinscrit']
+Card 13 does not have label: //span[text()='Non-réinscrit']
+Card 14 does not have label: //span[text()='Non-réinscrit']
+Card 15 does not have label: //span[text()='Non-réinscrit']
+Card 16 does not have label: //span[text()='Non-réinscrit']
+Card 17 does not have label: //span[text()='Non-réinscrit']
+Card 18 does not have label: //span[text()='Non-réinscrit']
+Card 19 does not have label: //span[text()='Non-réinscrit']
+Card 20 does not have label: //span[text()='Non-réinscrit']
+Card 21 does not have label: //span[text()='Non-réinscrit']
+Card 22 does not have label: //span[text()='Non-réinscrit']
+Card 23 does not have label: //span[text()='Non-réinscrit']
+Card 24 does not have label: //span[text()='Non-réinscrit']
+Card 25 does not have label: //span[text()='Non-réinscrit']
+Card 26 does not have label: //span[text()='Non-réinscrit']
+Card 27 does not have label: //span[text()='Non-réinscrit']
+Card 28 does not have label: //span[text()='Non-réinscrit']
+Card 29 does not have label: //span[text()='Non-réinscrit']
+Card 30 does not have label: //span[text()='Non-réinscrit']
+Card 31 does not have label: //span[text()='Non-réinscrit']
+Card 32 does not have label: //span[text()='Non-réinscrit']
+Card 33 does not have label: //span[text()='Non-réinscrit']
+Card 34 does not have label: //span[text()='Non-réinscrit']
+Card 35 does not have label: //span[text()='Non-réinscrit']
+Card 36 does not have label: //span[text()='Non-réinscrit']
+Card 37 does not have label: //span[text()='Non-réinscrit']
+Card 38 does not have label: //span[text()='Non-réinscrit']
+Card 39 does not have label: //span[text()='Non-réinscrit']
+Card 40 does not have label: //span[text()='Non-réinscrit']
+Card 41 does not have label: //span[text()='Non-réinscrit']
+Card 42 does not have label: //span[text()='Non-réinscrit']
+Card 43 does not have label: //span[text()='Non-réinscrit']
+Card 44 does not have label: //span[text()='Non-réinscrit']
+Card 45 does not have label: //span[text()='Non-réinscrit']
+Card 46 does not have label: //span[text()='Non-réinscrit']
+Card 47 does not have label: //span[text()='Non-réinscrit']
+Card 48 does not have label: //span[text()='Non-réinscrit']
+Card 49 does not have label: //span[text()='Non-réinscrit']
+Card 50 does not have label: //span[text()='Non-réinscrit']
+Card 51 does not have label: //span[text()='Non-réinscrit']
+Card 52 does not have label: //span[text()='Non-réinscrit']
+Card 53 does not have label: //span[text()='Non-réinscrit']
+Card 54 does not have label: //span[text()='Non-réinscrit']
+Card 55 does not have label: //span[text()='Non-réinscrit']
+Card 56 does not have label: //span[text()='Non-réinscrit']
+Card 57 does not have label: //span[text()='Non-réinscrit']
+Card 58 does not have label: //span[text()='Non-réinscrit']
+Card 59 does not have label: //span[text()='Non-réinscrit']
+Card 60 does not have label: //span[text()='Non-réinscrit']
+Card 61 does not have label: //span[text()='Non-réinscrit']
+Card 62 does not have label: //span[text()='Non-réinscrit']
+Card 63 does not have label: //span[text()='Non-réinscrit']
+Card 64 does not have label: //span[text()='Non-réinscrit']
+Card 65 does not have label: //span[text()='Non-réinscrit']
+Card 66 does not have label: //span[text()='Non-réinscrit']
+Card 67 does not have label: //span[text()='Non-réinscrit']
+Card 68 does not have label: //span[text()='Non-réinscrit']
+Card 69 does not have label: //span[text()='Non-réinscrit']
+Card 70 does not have label: //span[text()='Non-réinscrit']
+Card 71 does not have label: //span[text()='Non-réinscrit']
+Card 72 does not have label: //span[text()='Non-réinscrit']
+Card 73 does not have label: //span[text()='Non-réinscrit']
+Card 74 does not have label: //span[text()='Non-réinscrit']
+Card 75 does not have label: //span[text()='Non-réinscrit']
+Found 5 cards with label '//span[text()='Non-réinscrit']'
+Students have 'Non-réinscrit' label: False
+Found 75 student cards
+Card 1 class text: '--'
+Card 2 class element not visible
+Card 3 class text: '--'
+Card 4 class element not visible
+Card 5 class element not visible
+Card 6 class element not visible
+Card 7 class element not visible
+Card 8 class element not visible
+Card 9 class element not visible
+Card 10 class element not visible
+Card 11 class element not visible
+Card 12 class element not visible
+Card 13 class element not visible
+Card 14 class element not visible
+Card 15 class element not visible
+Card 16 class text: '--'
+Card 17 class element not visible
+Card 18 class text: '--'
+Card 19 class element not visible
+Card 20 class element not visible
+Card 21 class element not visible
+Card 22 class element not visible
+Card 23 class element not visible
+Card 24 class element not visible
+Card 25 class element not visible
+Card 26 class element not visible
+Card 27 class element not visible
+Card 28 class element not visible
+Card 29 class element not visible
+Card 30 class element not visible
+Card 31 class text: '--'
+Card 32 class element not visible
+Card 33 class text: '--'
+Card 34 class element not visible
+Card 35 class element not visible
+Card 36 class element not visible
+Card 37 class element not visible
+Card 38 class element not visible
+Card 39 class element not visible
+Card 40 class element not visible
+Card 41 class element not visible
+Card 42 class element not visible
+Card 43 class element not visible
+Card 44 class element not visible
+Card 45 class element not visible
+Card 46 class text: '--'
+Card 47 class element not visible
+Card 48 class text: '--'
+Card 49 class element not visible
+Card 50 class element not visible
+Card 51 class element not visible
+Card 52 class element not visible
+Card 53 class element not visible
+Card 54 class element not visible
+Card 55 class element not visible
+Card 56 class element not visible
+Card 57 class element not visible
+Card 58 class element not visible
+Card 59 class element not visible
+Card 60 class element not visible
+Card 61 class text: '--'
+Card 62 class element not visible
+Card 63 class text: '--'
+Card 64 class element not visible
+Card 65 class element not visible
+Card 66 class element not visible
+Card 67 class element not visible
+Card 68 class element not visible
+Card 69 class element not visible
+Card 70 class element not visible
+Card 71 class element not visible
+Card 72 class element not visible
+Card 73 class element not visible
+Card 74 class element not visible
+Card 75 class element not visible
+All students have empty class: True
