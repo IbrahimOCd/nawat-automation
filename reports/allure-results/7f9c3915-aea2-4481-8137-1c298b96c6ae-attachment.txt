@@ -1,0 +1,1 @@
+{'username_label': True, 'password_label': True, 'submit_button': True}

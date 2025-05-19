@@ -43,11 +43,7 @@ def test_all_classes_filter(class_filter_page):
             if not item:
                 break
             
-            # Skip "Tous" items (don't test students)
-            if class_filter_page.is_tous_item(title):
-                class_filter_page.click_sidebar_item(item, title)
-                # Navigate back
-            
+          
             # Only test classes (items with parentheses)
             elif class_filter_page.is_class_item(title):
                 # It's a class - click and test students

@@ -108,17 +108,6 @@ class ClassFilterPage(BasePage):
         """
         return "(" in title and ")" in title
     
-    def is_tous_item(self, title):
-        """
-        Check if an item is the "Tous" item
-        
-        Args:
-            title: The title of the item
-            
-        Returns:
-            bool: True if it's "Tous", False otherwise
-        """
-        return title.lower() == "tous"
     
     def expand_all_items(self):
         """

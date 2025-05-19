@@ -22,19 +22,14 @@ def config():
             "base_url": "https://dev.nawat.ma",
             "username": "ecole.e2a",
             "password": "1@ayouris2",
-            "headless": False,  
-            "slow_mo": 50
+            "headless": False 
         }
 
 @pytest.fixture(scope="session")
 def browser_context_args(browser_context_args):
     return {
         **browser_context_args,
-        "viewport": {
-            "width": 1920,
-            "height": 1080,
-        },
-        # Performance optimizations
+        "viewport": {"width": 1366, "height": 768},  # CHANGED: Smaller viewport for speed
         "java_script_enabled": True,
         "bypass_csp": True, 
         "ignore_https_errors": True
@@ -43,22 +38,22 @@ def browser_context_args(browser_context_args):
 @pytest.fixture(scope="session")
 def browser(config):
     with sync_playwright() as playwright:
-        # Ensure headless is a boolean
-        headless_value = config.get("headless")
+        headless_value = config.get("headless", True)  # Default to headless
         if isinstance(headless_value, str):
             headless_value = headless_value.lower() == 'true'
         
-        # Get slow_mo value but default to a lower value for faster tests
-        slow_mo = config.get("slow_mo", 30)  # Lowered from 50 to 30
-        
+        # CHANGED: Remove slow_mo completely for speed
         browser = playwright.chromium.launch(
             headless=headless_value,
-            slow_mo=slow_mo,
             args=[
                 "--disable-extensions",
                 "--disable-dev-shm-usage", 
                 "--disable-gpu",
-                "--no-sandbox"
+                "--no-sandbox",
+                # ADDED: Performance args
+                "--disable-web-security",
+                "--disable-features=IsolateOrigins,site-per-process",
+                "--disable-site-isolation-trials"
             ]
         )
         yield browser
