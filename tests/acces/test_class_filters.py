@@ -18,10 +18,8 @@ def class_filter_page(logged_in_page):
 def test_all_classes_filter(class_filter_page):
     """Test filtering students by all available class levels"""
     # First phase: Expand everything in the sidebar
-    expanded_items = class_filter_page.expand_all_items()
+    class_filter_page.expand_all_items()
     
-    # Go back to the main view after expanding everything
-    class_filter_page.wait_for_page_loaded()
     
     # Second phase: Test classes (items with parentheses)
     # Initialize tracking variables

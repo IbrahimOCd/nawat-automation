@@ -1,0 +1,14 @@
+Total students visible: 324
+Enrolled students count: 324
+
+Enrolled student 1: Abdelmoughit MOUYANE - --
+Enrolled student 2: Abderrahmane BELHADJ - --
+Enrolled student 3: Abderrahmane MOUFID - --
+Enrolled student 4: Abrar ALLAOUI - --
+Enrolled student 5: Achraf MARKOUCH - --
+Enrolled student 6: Adam ALLAOUI - --
+Enrolled student 7: Adam BOUAOUED - --
+Enrolled student 8: Adam BOURCHIGUE - --
+Enrolled student 9: Adam EL KORCHI - --
+Enrolled student 10: Adam JABAL - --
+... and 314 more
