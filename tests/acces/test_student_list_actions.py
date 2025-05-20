@@ -60,3 +60,4 @@ def test_export_all_students_to_excel(list_actions_page):
         assert result["export_started"], "Failed to start export process"
         assert result["file_downloaded"], "File was not downloaded successfully"
         assert result["file_size"] > 0, "Downloaded file is empty"
+

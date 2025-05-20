@@ -66,13 +66,11 @@ def test_all_classes_filter(class_filter_page):
                     classes_without_students.append(title)
                 
                 # Navigate back
-                class_filter_page.wait_for_page_loaded()
             else:
                 # Not a class - just click and move on
                 class_filter_page.click_sidebar_item(item, title)
                 
                 # Navigate back
-                class_filter_page.wait_for_page_loaded()
             
             # Move to the next item
             current_index += 1
@@ -84,7 +82,7 @@ def test_all_classes_filter(class_filter_page):
             
             # Try to recover by navigating back
             try:
-                            class_filter_page.wait_for_page_loaded()
+                class_filter_page.wait_for_page_loaded()
             except:
                 pass
             

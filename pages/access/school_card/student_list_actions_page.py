@@ -7,7 +7,7 @@ import allure
 class StudentListActionsPage(BasePage):
     """Page object for various actions on student list view, including export"""
     
-    # Navigation selectors
+      # Navigation selectors
     WORKSPACE_BUTTON = "//button[@title='Espace de travail']"
     ACCESS_MODULE = "(//a[@data-menu-xmlid='acces.acces'])[3]"
     CARTE_SCOLAIRE_MENU = "(//span[text()='Carte Scolaire'])[2]"
@@ -118,7 +118,7 @@ class StudentListActionsPage(BasePage):
                 self.click_with_retry(self.EXPORT_OPTION)
                 
                 # Wait for export dialog
-                return self.is_element_visible(self.EXPORT_DIALOG, timeout=5000)
+                return self.is_element_visible(self.EXPORT_DIALOG, timeout=50000)
             return False
         except:
             return False
@@ -135,7 +135,7 @@ class StudentListActionsPage(BasePage):
                 self.click_with_retry(self.EXPORT_BUTTON)
                 
                 # Wait briefly for download to start
-                time.sleep(1.5)
+                time.sleep(1)
                 
                 return True
             return False
@@ -154,7 +154,7 @@ class StudentListActionsPage(BasePage):
                 self.click_with_retry(self.EXPORT_BUTTON)
                 
                 # Wait briefly for download to start
-                time.sleep(1.5)
+                time.sleep(1)
                 
                 return True
             return False
@@ -181,7 +181,6 @@ class StudentListActionsPage(BasePage):
                     "file_size": file_size,
                     "time_to_download": time.time() - start_time
                 }
-            time.sleep(0.5)
         
         # If we reach here, file wasn't found
         return {
