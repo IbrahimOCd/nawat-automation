@@ -138,6 +138,8 @@ def test_all_classes_filter(class_filter_page):
                         os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
                         class_filter_page.page.screenshot(path=screenshot_path)
                         print(f"📸 Mismatch screenshot saved: {screenshot_path}")
+                        allure.attach("\n".join(screenshot_path), name="Matching Students", attachment_type=allure.attachment_type.TEXT)
+
                     except:
                         pass
             else:
