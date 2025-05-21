@@ -1,0 +1,9 @@
+Navigation to list view: ✓
+Selected all students: ✓
+Number of students selected: 316
+Export dialog opened: ✓
+Export process started: ✓
+File downloaded successfully: ✓
+Download path: C:\Users\lenovo\Downloads\Statut de lapprenant (acces.statut.apprenant).xlsx
+File size: 19718 bytes
+Download time: 0.00 seconds

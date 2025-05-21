@@ -116,9 +116,10 @@ class StudentListActionsPage(BasePage):
             # Click Export option
             if self.is_element_visible(self.EXPORT_OPTION, timeout=2000):
                 self.click_with_retry(self.EXPORT_OPTION)
-                
+                time.sleep(1)
+
                 # Wait for export dialog
-                return self.is_element_visible(self.EXPORT_DIALOG, timeout=50000)
+                return self.is_element_visible(self.EXPORT_DIALOG, timeout=5000)
             return False
         except:
             return False

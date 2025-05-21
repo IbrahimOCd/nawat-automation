@@ -79,7 +79,6 @@ class LoginPage(BasePage):
             self.page.click(self.LANGUAGE_DROPDOWN)
             
             # Wait for dropdown to appear
-            self.page.wait_for_timeout(500)
             
             # Click on the language option
             self.page.click(self.LANGUAGE_OPTIONS[language_code])
@@ -166,7 +165,6 @@ class LoginPage(BasePage):
             self.page.wait_for_selector(self.APP_CONTENT, state="visible", timeout=15000)
             
             # Give additional time for data to fully load
-            time.sleep(2)
             
             # Check if we're really logged in by verifying user menu is accessible
             if not self.page.is_visible(self.MAIN_NAVBAR, timeout=2000):

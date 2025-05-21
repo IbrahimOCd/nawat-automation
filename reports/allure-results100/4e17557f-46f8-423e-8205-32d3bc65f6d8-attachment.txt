@@ -1,0 +1,5 @@
+FAST TEST RESULTS (72.2s)
+Classes: 15 found, 15 tested
+Students: 15 classes have students
+Errors: 0 classes failed
+Mismatches: 0 classes with wrong students

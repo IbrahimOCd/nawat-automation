@@ -1,0 +1,11 @@
+🎓 FAST ENROLLED STUDENTS
+⏱️  Time: 42.0s
+✅ Enrolled: 316
+📊 Total: 316
+📈 Rate: 100.0%
+
+📋 Sample Enrolled Students:
+  1. Abdelmoughit MOUYANE - --
+  2. Abderrahmane BELHADJ - --
+  3. Abderrahmane MOUFID - --
+  ... and 313 more

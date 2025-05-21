@@ -1,0 +1,1 @@
+{"name": "test_all_classes_filter", "status": "skipped", "description": "Test filtering students by all available class levels", "start": 1747751248056, "stop": 1747751248056, "uuid": "a1c045fc-1906-4b85-a8e0-a8679a060d7e", "testCaseId": "3da7e31da9be5c62f5a4ef8d202e69e7", "fullName": "tests.acces.test_class_filters#test_all_classes_filter"}

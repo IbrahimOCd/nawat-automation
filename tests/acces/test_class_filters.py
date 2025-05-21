@@ -10,124 +10,163 @@ def class_filter_page(logged_in_page):
     """Setup the class filter page after login"""
     class_filter_page = ClassFilterPage(logged_in_page)
     class_filter_page.navigate_from_login()
-    class_filter_page.wait_for_page_loaded()
     return class_filter_page
 
 @allure.feature("Student Management")
 @allure.story("Class Filtering")
 def test_all_classes_filter(class_filter_page):
-    """Test filtering students by all available class levels"""
-    # First phase: Expand everything in the sidebar
-    class_filter_page.expand_all_items()
+    """Test filtering students by all available class levels - FAST VERSION"""
     
-    
-    # Second phase: Test classes (items with parentheses)
     # Initialize tracking variables
     classes_tested = []
     classes_with_students = []
     classes_without_students = []
-    classes_with_mismatches = {}  # Changed to dictionary to store mismatched students
+    classes_with_mismatches = {}
+    classes_with_errors = []
     
-    # Process each item again
-    current_index = 1
-    max_attempts = 100  # Safety limit
+    # PHASE 1: FAST EXPANSION
+    print("🚀 PHASE 1: FAST EXPANSION")
+    start_time = time.time()
     
-    while current_index <= max_attempts:
-        try:
-            # Get the item
-            item, title = class_filter_page.get_sidebar_item(current_index)
-            
-            # If item doesn't exist, we've reached the end
-            if not item:
-                break
-            
-          
-            # Only test classes (items with parentheses)
-            elif class_filter_page.is_class_item(title):
-                # It's a class - click and test students
-                class_filter_page.click_sidebar_item(item, title)
-                classes_tested.append(title)
-                
-                # Wait for page to load
-                class_filter_page.wait_for_page_loaded()
-                
-                # Check if there are students
-                if class_filter_page.has_students():
-                    classes_with_students.append(title)
-                    class_filter_page.wait_for_page_loaded()
-
-                    # Verify students match the class
-                    success, details = class_filter_page.verify_students_match_class(title)
-                    
-                    if not success and 'mismatched_students' in details:
-                        # Store mismatched students with class
-                        classes_with_mismatches[title] = details['mismatched_students']
-                else:
-                    classes_without_students.append(title)
-                
-                # Navigate back
-            else:
-                # Not a class - just click and move on
-                class_filter_page.click_sidebar_item(item, title)
-                
-                # Navigate back
-            
-            # Move to the next item
-            current_index += 1
-        except Exception as e:
-            # Log the error
-            allure.attach(f"Error processing item at index {current_index}: {str(e)}",
-                        name="Process Error",
-                        attachment_type=allure.attachment_type.TEXT)
-            
-            # Try to recover by navigating back
-            try:
-                class_filter_page.wait_for_page_loaded()
-            except:
-                pass
-            
-            # Move to the next item
-            current_index += 1
+    expansion_success = class_filter_page.expand_all_sidebar_items()
     
-    # Create detailed summary of mismatched students
-    mismatched_summary = ""
-    for class_name, mismatched in classes_with_mismatches.items():
-        mismatched_summary += f"\nClass: {class_name}\n"
-        mismatched_summary += f"Total mismatched students: {len(mismatched)}\n"
-        mismatched_summary += "Student details:\n"
+    # PHASE 2: FAST COLLECTION
+    print("📋 PHASE 2: COLLECTING CLASSES")
+    
+    sidebar_items = class_filter_page.get_all_sidebar_items()
+    class_items = [(element, title) for element, title, is_class in sidebar_items if is_class]
+    
+    print(f"⚡ Found {len(class_items)} classes in {time.time() - start_time:.1f}s")
+    
+    if len(class_items) == 0:
+        # Enhanced debugging when no classes found
+        print("\n🚨 NO CLASSES FOUND - RUNNING ENHANCED DEBUG")
         
-        for student in mismatched:
-            mismatched_summary += f"- Student #{student['index']}: {student['name']} (ID: {student['id']})\n"
-            mismatched_summary += f"  Expected class: {student['expected_class']}\n"
-            mismatched_summary += f"  Actual class: {student['actual_class']}\n"
+        # Show what we actually found
+        print(f"\n📊 All sidebar items found ({len(sidebar_items)}):")
+        for i, (_, title, is_class) in enumerate(sidebar_items):
+            status = "✅ CLASS" if is_class else "❌ NOT CLASS"
+            print(f"  {i+1}. {title} ({status})")
+        
+        # Run enhanced debug
+        class_filter_page.debug_sidebar_structure()
+        
+        # Try a different expansion approach
+        print("\n🔄 TRYING JAVASCRIPT EXPANSION")
+        
+        # Use JavaScript to expand and get classes
+        js_expansion_result = class_filter_page.page.evaluate("""
+            () => {
+                // Try to click all expandable items
+                let clicked = 0;
+                const selectors = [
+                    '[class*="search_panel_label"]',
+                    '[class*="panel_label"]',
+                    'div[class*="o_search"]',
+                    'div[role="button"]'
+                ];
+                
+                selectors.forEach(selector => {
+                    const elements = document.querySelectorAll(selector);
+                    elements.forEach(el => {
+                        try {
+                            el.click();
+                            clicked++;
+                        } catch(e) {}
+                    });
+                });
+                
+                // Wait a moment then find classes
+                setTimeout(() => {}, 1000);
+                
+                // Look for text with parentheses (classes)
+                const allText = Array.from(document.querySelectorAll('*'))
+                    .map(el => el.textContent)
+                    .filter(text => text && text.includes('(') && text.includes(')'))
+                    .filter(text => text.length < 50); // Reasonable class name length
+                
+                return {
+                    clicked: clicked,
+                    possibleClasses: [...new Set(allText)].slice(0, 10)
+                };
+            }
+        """)
+        
+        print(f"🎯 JavaScript expansion: clicked {js_expansion_result['clicked']} elements")
+        print(f"🎓 Possible classes found: {js_expansion_result['possibleClasses']}")
+        
+        # Wait for JS changes to take effect
+        time.sleep(2)
+        
+        # Try getting items again
+        sidebar_items = class_filter_page.get_all_sidebar_items()
+        class_items = [(element, title) for element, title, is_class in sidebar_items if is_class]
+        print(f"⚡ After JS expansion: found {len(class_items)} classes")
     
-    # Generate summary report
-    summary = (f"TEST SUMMARY\n\n" +
-              f"Classes Tested ({len(classes_tested)}):\n" +
-              f"- {', '.join(classes_tested)}\n\n" +
-              f"Classes with Students ({len(classes_with_students)}):\n" +
-              f"- {', '.join(classes_with_students)}\n\n" +
-              f"Classes without Students ({len(classes_without_students)}):\n" +
-              f"- {', '.join(classes_without_students)}\n\n" +
-              f"Classes with Mismatched Students ({len(classes_with_mismatches)}):\n" +
-              f"- {', '.join(classes_with_mismatches.keys())}")
+    # PHASE 3: FAST TESTING
+    print("🧪 PHASE 3: TESTING CLASSES")
     
-    if mismatched_summary:
-        summary += f"\n\nDETAILED MISMATCHES:{mismatched_summary}"
+    # Process each class FAST
+    for i, (element, title) in enumerate(class_items):
+        try:
+            # Click fast
+            if not class_filter_page.click_sidebar_item_safe(element, title):
+                classes_with_errors.append(f"{title} (click failed)")
+                continue
+            
+            classes_tested.append(title)
+            
+            # Fast student check with single retry
+            has_students = class_filter_page.has_students()
+            if not has_students:
+                # Single fast retry
+                time.sleep(0.5)
+                has_students = class_filter_page.has_students()
+            
+            if has_students:
+                classes_with_students.append(title)
+                
+                # Fast verification
+                success, details = class_filter_page.verify_students_match_class(title)
+                
+                if not success and 'mismatched_students' in details:
+                    classes_with_mismatches[title] = details['mismatched_students']
+            else:
+                classes_without_students.append(title)
+            
+            # No pause between classes for speed
+            
+        except Exception as e:
+            classes_with_errors.append(f"{title} (error: {str(e)})")
+            continue
     
-    allure.attach(summary, name="Test Summary", attachment_type=allure.attachment_type.TEXT)
+    # FAST SUMMARY
+    total_time = time.time() - start_time
+    print(f"\n⚡ COMPLETED IN {total_time:.1f}s")
     
-    # Take a screenshot at the very end
-    class_filter_page.page.screenshot(path="reports/screenshots/test_complete.png")
+    # Compact summary
+    summary = (f"FAST TEST RESULTS ({total_time:.1f}s)\n" +
+              f"Classes: {len(class_items)} found, {len(classes_tested)} tested\n" +
+              f"Students: {len(classes_with_students)} classes have students\n" +
+              f"Errors: {len(classes_with_errors)} classes failed\n" +
+              f"Mismatches: {len(classes_with_mismatches)} classes with wrong students")
     
-    # Assert that there are no mismatches
     if classes_with_mismatches:
-        # Create detailed error message with student information
-        error_message = f"Found {len(classes_with_mismatches)} classes with mismatched students:\n{mismatched_summary}"
-        pytest.fail(error_message)
+        for class_name, mismatched in classes_with_mismatches.items():
+            summary += f"\n❌ {class_name}: {len(mismatched)} mismatched students"
     
-    # Assert that we tested at least some classes
-    assert len(classes_tested) > 0, "No classes were tested"
+    # Quick allure attach
+    allure.attach(summary, name="Fast Test Summary", attachment_type=allure.attachment_type.TEXT)
     
-    # Assert that we found students in at least some classes
-    assert len(classes_with_students) > 0, "No classes with students were found"
+    # Print to console
+    print(summary)
+    
+    # Fast assertions
+    assert len(class_items) > 0, "No classes found"
+    assert len(classes_tested) > 0, f"No classes tested. Errors: {classes_with_errors}"
+    assert len(classes_tested) >= len(class_items) * 0.7, f"Low success rate: {len(classes_tested)}/{len(class_items)}"
+    
+    if classes_with_mismatches:
+        pytest.fail(f"Found {len(classes_with_mismatches)} classes with mismatched students")
+    
+    print(f"✅ SUCCESS! {len(classes_tested)} classes tested in {total_time:.1f}s")

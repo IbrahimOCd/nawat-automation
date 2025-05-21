@@ -1,0 +1,35 @@
+Getting all sidebar items...
+Error processing sidebar item 0: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 1: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 2: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 3: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 4: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Found 0 class items to test
+No classes found, waiting and retrying...
+Error processing sidebar item 0: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 1: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 2: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 3: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Error processing sidebar item 4: Unsupported token "@class" while parsing selector ".//span[contains(@class,'o_search_panel_label_title text-truncate')]"
+Retry found 0 class items
+
+CLASS FILTER TEST SUMMARY
+==================================================
+
+Total Classes Found: 0
+Classes Successfully Tested: 0
+Classes with Students: 0
+Classes without Students: 0
+Classes with Mismatched Students: 0
+Classes with Errors: 0
+
+CLASSES TESTED (0):
+- 
+
+CLASSES WITH STUDENTS (0):
+- 
+
+CLASSES WITHOUT STUDENTS (0):
+- 
+
+

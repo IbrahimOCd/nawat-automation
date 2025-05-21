@@ -1,0 +1,928 @@
+TEST SUMMARY
+
+Classes Tested (15):
+- MS-1(MARGUERITES), GS-1 (JASMINS), GS-2 (COQUELICOTS), 1AEP-1 (BAUDELAIRE), 1AEP-2 (MALLARME), 2AEP-1 (IBN ROCHD), 2AEP-2 (ADONIS), 3AEP-1 (CHERKAOUI), 3AEP-2 (BOURDIEU), 4AEP-1 (KANT), 5AEP-1 (SPINOZA), 6AEP-1 (DARWICH), 1ASC-1 (A. LAROUI), 2ASC-1 (F W  HEGEL), 3ASC-1 (P. RICOEUR)
+
+Classes with Students (14):
+- MS-1(MARGUERITES), GS-1 (JASMINS), GS-2 (COQUELICOTS), 1AEP-2 (MALLARME), 2AEP-1 (IBN ROCHD), 2AEP-2 (ADONIS), 3AEP-1 (CHERKAOUI), 3AEP-2 (BOURDIEU), 4AEP-1 (KANT), 5AEP-1 (SPINOZA), 6AEP-1 (DARWICH), 1ASC-1 (A. LAROUI), 2ASC-1 (F W  HEGEL), 3ASC-1 (P. RICOEUR)
+
+Classes without Students (1):
+- 1AEP-1 (BAUDELAIRE)
+
+Classes with Mismatched Students (14):
+- MS-1(MARGUERITES), GS-1 (JASMINS), GS-2 (COQUELICOTS), 1AEP-2 (MALLARME), 2AEP-1 (IBN ROCHD), 2AEP-2 (ADONIS), 3AEP-1 (CHERKAOUI), 3AEP-2 (BOURDIEU), 4AEP-1 (KANT), 5AEP-1 (SPINOZA), 6AEP-1 (DARWICH), 1ASC-1 (A. LAROUI), 2ASC-1 (F W  HEGEL), 3ASC-1 (P. RICOEUR)
+
+DETAILED MISMATCHES:
+Class: MS-1(MARGUERITES)
+Total mismatched students: 26
+Student details:
+- Student #1: Student 1
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #22: Student 22
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #23: Student 23
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #24: Student 24
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #25: Student 25
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #26: Student 26
+  Expected class: MS-1(MARGUERITES)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: GS-1 (JASMINS)
+Total mismatched students: 16
+Student details:
+- Student #1: Student 1
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: GS-1 (JASMINS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: GS-2 (COQUELICOTS)
+Total mismatched students: 18
+Student details:
+- Student #1: Student 1
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: GS-2 (COQUELICOTS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 1AEP-2 (MALLARME)
+Total mismatched students: 21
+Student details:
+- Student #1: Student 1
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 1AEP-2 (MALLARME)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 2AEP-1 (IBN ROCHD)
+Total mismatched students: 17
+Student details:
+- Student #1: Student 1
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 2AEP-1 (IBN ROCHD)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 2AEP-2 (ADONIS)
+Total mismatched students: 18
+Student details:
+- Student #1: Student 1
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 2AEP-2 (ADONIS)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 3AEP-1 (CHERKAOUI)
+Total mismatched students: 22
+Student details:
+- Student #1: Student 1
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #22: Student 22
+  Expected class: 3AEP-1 (CHERKAOUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 3AEP-2 (BOURDIEU)
+Total mismatched students: 21
+Student details:
+- Student #1: Student 1
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 3AEP-2 (BOURDIEU)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 4AEP-1 (KANT)
+Total mismatched students: 21
+Student details:
+- Student #1: Student 1
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 4AEP-1 (KANT)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 5AEP-1 (SPINOZA)
+Total mismatched students: 26
+Student details:
+- Student #1: Student 1
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #22: Student 22
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #23: Student 23
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #24: Student 24
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #25: Student 25
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #26: Student 26
+  Expected class: 5AEP-1 (SPINOZA)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 6AEP-1 (DARWICH)
+Total mismatched students: 26
+Student details:
+- Student #1: Student 1
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #22: Student 22
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #23: Student 23
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #24: Student 24
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #25: Student 25
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #26: Student 26
+  Expected class: 6AEP-1 (DARWICH)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 1ASC-1 (A. LAROUI)
+Total mismatched students: 24
+Student details:
+- Student #1: Student 1
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #19: Student 19
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #20: Student 20
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #21: Student 21
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #22: Student 22
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #23: Student 23
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #24: Student 24
+  Expected class: 1ASC-1 (A. LAROUI)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 2ASC-1 (F W  HEGEL)
+Total mismatched students: 12
+Student details:
+- Student #1: Student 1
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 2ASC-1 (F W  HEGEL)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+
+Class: 3ASC-1 (P. RICOEUR)
+Total mismatched students: 18
+Student details:
+- Student #1: Student 1
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #2: Student 2
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #3: Student 3
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #4: Student 4
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #5: Student 5
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #6: Student 6
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #7: Student 7
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #8: Student 8
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #9: Student 9
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #10: Student 10
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #11: Student 11
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #12: Student 12
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #13: Student 13
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #14: Student 14
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #15: Student 15
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #16: Student 16
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #17: Student 17
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'
+- Student #18: Student 18
+  Expected class: 3ASC-1 (P. RICOEUR)
+  Actual class: Error reading card: 'ClassFilterPage' object has no attribute 'STUDENT_NAME_SELECTOR'

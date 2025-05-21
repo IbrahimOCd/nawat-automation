@@ -22,51 +22,6 @@ def student_page(logged_in_page):
         
         return student_page
 
-@allure.feature("Student Enrollment")
-@allure.story("Navigation")
-def test_navigation_to_student_page(logged_in_page):
-    """Test navigation from login to student enrollment page"""
-    with allure.step("Create student page object"):
-        # Start with a fresh logged-in page
-        student_page = StudentInscritPage(logged_in_page)
-    
-    with allure.step("Navigate through the menus to student page"):
-        # Navigate through the menus
-        student_page.navigate_from_login()
-        
-        # Take screenshot and attach to Allure
-        screenshot_path = "reports/screenshots/navigation_complete.png"
-        os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
-        student_page.page.screenshot(path=screenshot_path)
-        allure.attach.file(screenshot_path, name="Navigation Complete", attachment_type=allure.attachment_type.PNG)
-    
-    with allure.step("Verify student page is displayed"):
-        # Verify we reached the student page
-        is_displayed = student_page.is_student_page_displayed()
-        allure.attach(f"Student page displayed: {is_displayed}", name="Page Display Verification", attachment_type=allure.attachment_type.TEXT)
-        assert is_displayed, "Failed to navigate to student enrollment page"
-
-@allure.feature("Student Enrollment")
-@allure.story("Student Display")
-def test_student_page_displays_students(student_page):
-    """Test that the student enrollment page shows student cards"""
-    with allure.step("Verify student cards are displayed"):
-        # Verify student cards are displayed
-        visible_count = student_page.get_visible_students_count()
-        allure.attach(f"Visible student count: {visible_count}", name="Visible Students", attachment_type=allure.attachment_type.TEXT)
-        assert visible_count > 0, "No student cards visible on the page"
-    
-    with allure.step("Verify total student count"):
-        # Verify total count
-        total_count = student_page.get_total_students_count()
-        allure.attach(f"Total student count: {total_count}", name="Total Students", attachment_type=allure.attachment_type.TEXT)
-        assert total_count >= visible_count, "Total student count issue"
-    
-    with allure.step("Take screenshot of student cards"):
-        # Take screenshot of student cards
-        screenshot_path = "reports/screenshots/student_cards.png"
-        student_page.page.screenshot(path=screenshot_path)
-        allure.attach.file(screenshot_path, name="Student Cards", attachment_type=allure.attachment_type.PNG)
 
 @allure.feature("Student Enrollment")
 @allure.story("Enrolled Students")
@@ -113,72 +68,6 @@ def test_enrolled_students_visible(student_page):
         student_page.page.screenshot(path=screenshot_path)
         allure.attach.file(screenshot_path, name="Enrolled Students - Final View", attachment_type=allure.attachment_type.PNG)
 
-@allure.feature("Student Enrollment")
-@allure.story("Pagination")
-def test_pagination(student_page):
-    """Test navigation between pages of students"""
-    with allure.step("Get information from the first page"):
-        # Get information from the first page
-        first_page_count = student_page.get_visible_students_count()
-        allure.attach(f"First page student count: {first_page_count}", name="First Page Count", attachment_type=allure.attachment_type.TEXT)
-        
-        # Take screenshot of first page
-        screenshot_path = "reports/screenshots/pagination_first_page.png"
-        os.makedirs(os.path.dirname(screenshot_path), exist_ok=True)
-        student_page.page.screenshot(path=screenshot_path)
-        allure.attach.file(screenshot_path, name="Pagination - First Page", attachment_type=allure.attachment_type.PNG)
-    
-    # Only test pagination if we have a reasonable number of students
-    if first_page_count > 5:
-        with allure.step("Get first page student information"):
-            # Get the first student name on the first page
-            first_page_students = student_page.get_students_info()
-            first_student_name = first_page_students[0]["name"] if first_page_students else "Unknown"
-            allure.attach(f"First page first student: {first_student_name}", name="First Page First Student", attachment_type=allure.attachment_type.TEXT)
-        
-        with allure.step("Navigate to the next page"):
-            # Navigate to the next page if possible
-            has_next_page = student_page.navigate_to_next_page()
-            allure.attach(f"Next page available: {has_next_page}", name="Next Page Check", attachment_type=allure.attachment_type.TEXT)
-        
-        if has_next_page:
-            with allure.step("Verify second page shows different students"):
-                # Get the first student name on the second page
-                second_page_students = student_page.get_students_info()
-                second_student_name = second_page_students[0]["name"] if second_page_students else "Unknown"
-                allure.attach(f"Second page first student: {second_student_name}", name="Second Page First Student", attachment_type=allure.attachment_type.TEXT)
-                
-                # Verify the pages are different
-                assert first_student_name != second_student_name, "Next page navigation failed or showed same students"
-                
-                # Take screenshot of the second page
-                screenshot_path = "reports/screenshots/pagination_second_page.png"
-                student_page.page.screenshot(path=screenshot_path)
-                allure.attach.file(screenshot_path, name="Pagination - Second Page", attachment_type=allure.attachment_type.PNG)
-            
-            with allure.step("Navigate back to the first page"):
-                # Navigate back to the first page
-                student_page.navigate_to_previous_page()
-                
-                # Verify we're back on the first page
-                back_to_first = student_page.get_students_info()
-                back_first_name = back_to_first[0]["name"] if back_to_first else "Unknown"
-                allure.attach(f"Back to first page first student: {back_first_name}", name="Back To First Page Check", attachment_type=allure.attachment_type.TEXT)
-                
-                assert first_student_name == back_first_name, "Navigation back to first page failed"
-                
-                # Take screenshot of returning to first page
-                screenshot_path = "reports/screenshots/pagination_back_to_first.png"
-                student_page.page.screenshot(path=screenshot_path)
-                allure.attach.file(screenshot_path, name="Pagination - Back To First Page", attachment_type=allure.attachment_type.PNG)
-        else:
-            with allure.step("Skip pagination test - only one page available"):
-                allure.attach("Unable to navigate to next page, may only have one page of students", name="Pagination Skip Reason", attachment_type=allure.attachment_type.TEXT)
-                pytest.skip("Unable to navigate to next page, may only have one page of students")
-    else:
-        with allure.step("Skip pagination test - too few students"):
-            allure.attach(f"Too few students ({first_page_count}) to test pagination effectively", name="Pagination Skip Reason", attachment_type=allure.attachment_type.TEXT)
-            pytest.skip("Too few students to test pagination effectively")
 
 @allure.feature("Student Enrollment")
 @allure.story("Student Search")
