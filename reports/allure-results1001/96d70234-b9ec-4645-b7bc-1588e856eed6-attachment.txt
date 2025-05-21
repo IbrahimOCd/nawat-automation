@@ -1,0 +1,2 @@
+🌐 Launching browser (headless: False, Jenkins: False)
+💻 Local development environment detected
