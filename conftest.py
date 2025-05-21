@@ -98,51 +98,106 @@ def browser(config):
         if is_jenkins():
             headless_value = True
 
-        # Jenkins browser args for stability
-        browser_args = [
-            "--disable-dev-shm-usage",
-            "--disable-extensions", 
-            "--disable-gpu",
-            "--no-first-run",
-            "--no-default-browser-check",
-        ]
-        
-        if is_jenkins():
-            browser_args.extend([
-                "--no-sandbox",
-                "--disable-web-security",
-                "--single-process",
-            ])
-
         print(f"Launching browser (headless: {headless_value}, Jenkins: {is_jenkins()})")
         
-        browser = playwright.chromium.launch(
-            headless=headless_value,
-            args=browser_args
-        )
+        # Try different browser configurations for Jenkins stability
+        browser_configs = [
+            # Conservative config for Jenkins
+            {
+                "headless": headless_value,
+                "args": [
+                    "--disable-dev-shm-usage",
+                    "--disable-extensions", 
+                    "--disable-gpu",
+                    "--no-first-run",
+                    "--no-default-browser-check",
+                    "--no-sandbox" if is_jenkins() else "",
+                    "--disable-web-security" if is_jenkins() else "",
+                ]
+            },
+            # Fallback minimal config
+            {
+                "headless": True,
+                "args": [
+                    "--no-sandbox",
+                    "--disable-dev-shm-usage",
+                ]
+            }
+        ]
+        
+        browser = None
+        for i, config_attempt in enumerate(browser_configs):
+            try:
+                # Filter out empty args
+                args = [arg for arg in config_attempt["args"] if arg]
+                print(f"Browser launch attempt {i+1} with args: {args}")
+                
+                browser = playwright.chromium.launch(
+                    headless=config_attempt["headless"],
+                    args=args
+                )
+                print(f"Browser launched successfully on attempt {i+1}")
+                break
+            except Exception as e:
+                print(f"Browser launch attempt {i+1} failed: {e}")
+                if browser:
+                    try:
+                        browser.close()
+                    except:
+                        pass
+                browser = None
+                
+        if not browser:
+            # Last resort - absolute minimal config
+            try:
+                print("Trying absolute minimal browser config...")
+                browser = playwright.chromium.launch(headless=True)
+                print("Minimal browser config successful")
+            except Exception as e:
+                print(f"All browser launch attempts failed: {e}")
+                raise
+        
         yield browser
-        browser.close()
+        
+        try:
+            browser.close()
+        except:
+            pass  # Ignore close errors
 
 @pytest.fixture
 def page(browser, config):
-    context = browser.new_context()
-    page = context.new_page()
+    context = None
+    page = None
     
-    # Jenkins-specific page optimizations
-    if is_jenkins():
-        # Set faster timeouts for Jenkins
-        page.set_default_timeout(15000)  # 15 seconds
-        page.set_default_navigation_timeout(20000)  # 20 seconds
-    else:
-        # Standard timeouts for local development
-        page.set_default_timeout(30000)  # 30 seconds
-        page.set_default_navigation_timeout(60000)  # 60 seconds
+    try:
+        context = browser.new_context()
+        page = context.new_page()
+        
+        # Jenkins-specific page optimizations
+        if is_jenkins():
+            # Set faster timeouts for Jenkins
+            page.set_default_timeout(15000)  # 15 seconds
+            page.set_default_navigation_timeout(20000)  # 20 seconds
+        else:
+            # Standard timeouts for local development
+            page.set_default_timeout(30000)  # 30 seconds
+            page.set_default_navigation_timeout(60000)  # 60 seconds
 
-    # Ensure screenshots directory exists
-    os.makedirs("reports/screenshots", exist_ok=True)
+        # Ensure screenshots directory exists
+        os.makedirs("reports/screenshots", exist_ok=True)
 
-    yield page
-    context.close()
+        yield page
+        
+    except Exception as e:
+        print(f"Error creating page: {e}")
+        raise
+    finally:
+        # Clean up
+        try:
+            if context:
+                context.close()
+        except:
+            pass  # Ignore cleanup errors
 
 @pytest.fixture
 def logged_in_page(page, config):

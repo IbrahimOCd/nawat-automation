@@ -1,0 +1,25 @@
+Local development environment detected
+Attempting login (Jenkins mode: False)...
+Successful login screenshot saved
+Login successful
+Total students according to pagination: 316
+Expected number of pages: 4
+Page 1: Found 80 enrolled students
+Page 2: Found 80 enrolled students
+Page 3: Found 80 enrolled students
+Page 4: Found 76 enrolled students
+Total students visible: 316
+Enrolled students count: 316
+
+Enrolled student 1: Abdelmoughit MOUYANE - --
+Enrolled student 2: Abderrahmane BELHADJ - --
+Enrolled student 3: Abderrahmane MOUFID - --
+Enrolled student 4: Abrar ALLAOUI - --
+Enrolled student 5: Achraf MARKOUCH - --
+Enrolled student 6: Adam ALLAOUI - --
+Enrolled student 7: Adam BOUAOUED - --
+Enrolled student 8: Adam BOURCHIGUE - --
+Enrolled student 9: Adam EL KORCHI - --
+Enrolled student 10: Adam JABAL - --
+... and 306 more
+
