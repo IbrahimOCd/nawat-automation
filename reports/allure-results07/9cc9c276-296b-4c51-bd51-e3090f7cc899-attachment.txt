@@ -1,9 +1,0 @@
-Navigation to list view: ✓
-Selected all students: ✓
-Number of students selected: 316
-Export dialog opened: ✓
-Export process started: ✓
-File downloaded successfully: ✗
-Download path: None
-File size: 0 bytes
-Download time: 10.00 seconds

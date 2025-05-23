@@ -1,0 +1,4 @@
+Launching browser (headless: False, Jenkins: False)
+Browser launch attempt 1 with args: ['--disable-dev-shm-usage', '--disable-extensions', '--disable-gpu', '--no-first-run', '--no-default-browser-check']
+Browser launched successfully on attempt 1
+Local development environment detected

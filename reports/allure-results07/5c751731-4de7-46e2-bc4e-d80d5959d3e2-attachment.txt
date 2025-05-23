@@ -1,7 +1,0 @@
-📊 EXPORT SPEED BENCHMARK RESULTS
-🔄 Iterations: 3
-⏱️  Average Time: 10.5s
-🚀 Fastest Time: 8.8s
-🐌 Slowest Time: 11.9s
-✅ Success Rate: 0.0%
-📁 Avg File Size: 0 bytes

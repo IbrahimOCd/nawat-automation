@@ -1,0 +1,5 @@
+LANGUAGE TEST SUMMARY - AR
+Language Switch: ✓
+Form Verification: ✓
+Invalid Login Rejected: ✓
+Error Message Shown: ✓

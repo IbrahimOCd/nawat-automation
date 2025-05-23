@@ -1,2 +1,0 @@
-Students have 'Non-réinscrit' label: True
-Classes are empty: True

@@ -1,4 +1,0 @@
-💻 Local development environment detected
-🔐 Attempting login (Jenkins mode: False)...
-📸 Successful login screenshot saved
-✅ Login successful

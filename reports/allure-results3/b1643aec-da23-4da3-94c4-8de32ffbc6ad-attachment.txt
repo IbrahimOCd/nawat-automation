@@ -1,0 +1,2 @@
+Local development environment detected
+Valid login test completed in 7.9s

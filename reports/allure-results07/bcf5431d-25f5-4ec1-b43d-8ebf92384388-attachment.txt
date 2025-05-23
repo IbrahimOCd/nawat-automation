@@ -1,7 +1,0 @@
-🚀 ULTRA-FAST EXCEL EXPORT RESULTS
-⏱️  Total Time: 10.4s
-🧭 Navigation: ✅
-📋 Selection: ✅ (316 students)
-📤 Export: ✅
-📁 Download: ❌ (0 bytes)
-⏬ Download Time: 5.0s

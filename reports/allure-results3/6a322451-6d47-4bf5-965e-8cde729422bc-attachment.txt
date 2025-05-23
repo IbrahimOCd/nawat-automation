@@ -1,0 +1,5 @@
+LANGUAGE TEST SUMMARY - FR
+Language Switch: ✓
+Form Verification: ✓
+Invalid Login Rejected: ✓
+Error Message Shown: ✓

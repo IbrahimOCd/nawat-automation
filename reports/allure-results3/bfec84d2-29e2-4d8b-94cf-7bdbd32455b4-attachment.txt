@@ -1,0 +1,125 @@
+Local development environment detected
+Attempting login (Jenkins mode: False)...
+Successful login screenshot saved
+Login successful
+🚀 PHASE 1: FAST EXPANSION
+🔍 Looking for sidebar items with selector: //div[contains(@class,'o_search_panel_label d-flex')]
+📦 Found 5 sidebar elements initially
+✅ Clicked 5 elements
+📋 PHASE 2: COLLECTING CLASSES
+📋 Found 22 sidebar elements after expansion
+🎓 Total classes detected: 0
+⚡ Found 0 classes in 10.9s
+
+🚨 NO CLASSES FOUND - RUNNING ENHANCED DEBUG
+
+📊 All sidebar items found (22):
+  1. Tous (❌ NOT CLASS)
+  2. Maternelle (❌ NOT CLASS)
+  3. Moyenne Section (❌ NOT CLASS)
+  4. Grande Section (❌ NOT CLASS)
+  5. Crèche (❌ NOT CLASS)
+  6. TPS (❌ NOT CLASS)
+  7. PS (❌ NOT CLASS)
+  8. Primaire (❌ NOT CLASS)
+  9. 1AEP (❌ NOT CLASS)
+  10. 2AEP (❌ NOT CLASS)
+  11. 3AEP (❌ NOT CLASS)
+  12. 4AEP (❌ NOT CLASS)
+  13. 5AEP (❌ NOT CLASS)
+  14. 6AEP (❌ NOT CLASS)
+  15. Collège (❌ NOT CLASS)
+  16. 1ASC (❌ NOT CLASS)
+  17. 2ASC (❌ NOT CLASS)
+  18. 3ASC (❌ NOT CLASS)
+  19. Lycée (❌ NOT CLASS)
+  20. TC (❌ NOT CLASS)
+  21. 1AB (❌ NOT CLASS)
+  22. 2AB (❌ NOT CLASS)
+
+🔍 ENHANCED SIDEBAR DEBUG
+==================================================
+📸 Debug screenshot saved
+🔎 '//div[contains(@class,'o_search_panel_label')]': 22 elements
+   [1] Tous
+   [2] Maternelle
+   [3] Moyenne Section
+   [4] Grande Section
+   [5] Crèche
+🔎 '//div[contains(@class,'search_panel_label')]': 22 elements
+   [1] Tous
+   [2] Maternelle
+   [3] Moyenne Section
+   [4] Grande Section
+   [5] Crèche
+🔎 '//div[contains(@class,'panel_label')]': 22 elements
+   [1] Tous
+   [2] Maternelle
+   [3] Moyenne Section
+   [4] Grande Section
+   [5] Crèche
+🔎 '//div[contains(@class,'search_panel')]//div': 35 elements
+   [1] No text
+   [2] No text
+   [3] TousMaternelleMoyenne SectionGrande SectionCrècheTPSPSPrimaire1AEP2AEP3AEP4AEP5A
+   [4] TousMaternelleMoyenne SectionGrande SectionCrècheTPSPSPrimaire1AEP2AEP3AEP4AEP5A
+   [5] Tous
+🔎 '//aside//div': 131 elements
+   [1] No text
+   [2] Modules
+   [3] Modules
+   [4] Carte ScolaireApprenantsListe des FamillesMembre de familleRapportsFamilleAnnuai
+   [5] Carte ScolaireApprenantsListe des FamillesMembre de familleRapportsFamilleAnnuai
+🔎 '[data-search-panel]': 0 elements
+🔎 '.o_search_panel_label': 22 elements
+   [1] Tous
+   [2] Maternelle
+   [3] Moyenne Section
+   [4] Grande Section
+   [5] Crèche
+🔎 '.search_panel_label': 0 elements
+🔎 '//span[contains(text(),'(')]': 1 elements
+   [1] English (US)
+   ⭐ This looks like a class: English (US)
+🔎 '//*[contains(text(),'6ème')]': 0 elements
+🔎 '//*[contains(text(),'5ème')]': 0 elements
+🔎 '//*[contains(text(),'2024')]': 3 elements
+   [1] // Block to avoid leaking variables in the script scope
+                    {
+  
+   [2] var session_info = {"uid": 1521, "is_system": false, "is_admin": true, "is_publi
+   [3] 2024-2025
+
+📄 Sidebar HTML snippet:
+<aside class="o_sidenav"><div class="sidenav-header"><a class="navbar-brand m-0 text-uppercase" href="/web"><img class="navbar-brand-logo p-2" src="/logo" alt="Logo"></a></div><div class="nav-item"><hr class="horizontal dark mt-0"><div class="d-flex align-items-center justify-content-between"><h6 class="fs-7 fw-sbold ms-2 sidenav_section text-uppercase mb-0">Modules</h6><button type="button" class="btn btn-om d-flex om-mask om-mask-blob sidenav_section p-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 10.5V6.8C20 5.11984 20 4.27976 19.673 3.63803C19.3854 3.07354 18.9265 2.6146 18.362 2.32698C17.7202 2 16.8802 2 15.2 2H8.8C7.11984 2 6.27976 2 5.63803 2.32698C5.07354 2.6146 4.6146 3.07354 4.32698 3.63803C4 4.27976 4 5.11984 4 6.8V17.2C4 18.8802 4 19.7202 4.32698 20.362C4.6146 20.9265 5.07354 21.3854 5.63803 21.673C6.27976 22 7.11984 22 8.8 22H11.5M22 22L20.5 20.5M21.5 18C21.5 19.933 19.933 21.5 18 21.5C16.067 21.5 14.5 19.933
+
+🔄 TRYING JAVASCRIPT EXPANSION
+🎯 JavaScript expansion: clicked 114 elements
+🎓 Possible classes found: ['Arabic / الْعَرَبيّةEnglish (US)French / Français', 'English (US)']
+📋 Found 34 sidebar elements after expansion
+🎯 Class found: MS-1(MARGUERITES)
+🎯 Class found: GS-1 (JASMINS)
+🎯 Class found: GS-2 (COQUELICOTS)
+🎯 Class found: 1AEP-1 (BAUDELAIRE)
+🎯 Class found: 1AEP-2 (MALLARME)
+🎯 Class found: 2AEP-1 (IBN ROCHD)
+🎯 Class found: 2AEP-2 (ADONIS)
+🎯 Class found: 3AEP-1 (CHERKAOUI)
+🎯 Class found: 3AEP-2 (BOURDIEU)
+🎯 Class found: 4AEP-1 (KANT)
+🎯 Class found: 5AEP-1 (SPINOZA)
+🎯 Class found: 6AEP-1 (DARWICH)
+🎯 Class found: 1ASC-1 (A. LAROUI)
+🎯 Class found: 2ASC-1 (F W  HEGEL)
+🎯 Class found: 3ASC-1 (P. RICOEUR)
+🎓 Total classes detected: 15
+⚡ After JS expansion: found 15 classes
+🧪 PHASE 3: TESTING CLASSES
+
+⚡ COMPLETED IN 120.1s
+FAST TEST RESULTS (120.1s)
+Classes: 15 found, 15 tested
+Students: 15 classes have students
+Errors: 0 classes failed
+Mismatches: 0 classes with wrong students
+✅ SUCCESS! 15 classes tested in 120.1s

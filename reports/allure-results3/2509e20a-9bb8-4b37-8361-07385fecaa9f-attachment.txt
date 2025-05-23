@@ -1,0 +1,6 @@
+Local development environment detected
+Login failed with error: Timeout 15000ms exceeded.
+=========================== logs ===========================
+waiting for locator("xpath=//span[@class='nav-title text-truncate ms-3']") to be visible
+============================================================
+Language ar test completed successfully

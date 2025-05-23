@@ -1,0 +1,5 @@
+VALID LOGIN SUMMARY
+Login Success: ✓
+Dashboard Access: ✓
+Total Time: 8.1s
+Performance: Fast
